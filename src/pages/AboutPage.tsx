@@ -18,7 +18,7 @@ const AboutPage: React.FC = () => {
             </h2>
             <div className="text-gray-700 leading-relaxed space-y-4">
               <p>
-                World of Biryanis is an MSME registered in Bengaluru, Karnataka.
+                World of Biryanis is a consumer brand operated under the MSME registration of J Dilip Kumar (Bengaluru, Karnataka, India)
               </p>
               <p>
                 We specialize in delivering authentic group-buy biryani packs and millet-based rotis to communities across Bengaluru.
