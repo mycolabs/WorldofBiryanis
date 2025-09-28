@@ -65,9 +65,9 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email Support",
-      value: "partners@nutrivital.in",
+      value: "support@worldofbiryanis.in",
       description: "Get detailed information via email",
-      action: "mailto:partners@nutrivital.in",
+      action: "mailto:support@worldofbiryanis.in",
       available: "24/7 response within 4 hours"
     }
   ];
@@ -121,7 +121,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-lg mb-2">Our Office</h4>
-                  <p className="text-gray-700 mb-1">NutriVital Foods Pvt. Ltd.</p>
+                  <p className="text-gray-700 mb-1">World of Biryanis Foods Pvt. Ltd.</p>
                   <p className="text-gray-600">Koramangala, Bengaluru</p>
                   <p className="text-gray-600">Karnataka 560034, India</p>
                 </div>

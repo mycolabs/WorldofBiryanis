@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { ArrowLeft, Heart, CheckCircle, AlertCircle } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { CheckCircle, AlertCircle } from 'lucide-react';
 import { supabase } from '../lib/supabase';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const ApplicationForm = () => {
   const [formData, setFormData] = useState({
@@ -78,7 +79,7 @@ const ApplicationForm = () => {
             Application Submitted Successfully!
           </h1>
           <p className="text-gray-600 mb-8 leading-relaxed">
-            Thank you for your interest in becoming a NutriVital partner. Our team will review your application and contact you within 24 hours.
+            Thank you for your interest in becoming a World of Biryanis partner. Our team will review your application and contact you within 24 hours.
           </p>
           <Link 
             to="/"
@@ -94,31 +95,7 @@ const ApplicationForm = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-green-50 to-lime-50">
-      {/* Header */}
-      <div className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center">
-              <div className="bg-gradient-to-r from-emerald-600 to-green-600 p-3 rounded-xl shadow-lg mr-4">
-                <Heart className="h-6 w-6 text-white" />
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-700 to-green-700 bg-clip-text text-transparent">
-                  NutriVital
-                </h1>
-                <p className="text-sm text-gray-600">Partnership Application</p>
-              </div>
-            </Link>
-            <Link 
-              to="/"
-              className="flex items-center text-gray-600 hover:text-emerald-600 transition-colors"
-            >
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Home
-            </Link>
-          </div>
-        </div>
-      </div>
+      <Header />
 
       {/* Form Section */}
       <div className="py-12">
@@ -126,7 +103,7 @@ const ApplicationForm = () => {
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Start Your NutriVital Partnership
+                Start Your World of Biryanis Partnership
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Fill out this application to begin your journey as a health food entrepreneur in your community.
@@ -222,7 +199,7 @@ const ApplicationForm = () => {
 
               <div>
                 <label className="block text-gray-700 text-sm font-semibold mb-2">
-                  Why do you want to join NutriVital?
+                  Why do you want to join World of Biryanis?
                 </label>
                 <textarea
                   name="motivation"
@@ -250,6 +227,7 @@ const ApplicationForm = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

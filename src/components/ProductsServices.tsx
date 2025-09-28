@@ -5,21 +5,21 @@ const ProductsServices = () => {
   const products = [
     {
       icon: Package,
-      title: "Premium Nutrition Packs",
-      description: "Ready-to-eat healthy meals made from organic grains, fresh vegetables, and traditional recipes.",
-      features: ["Ragi & Jowar Rotis", "Quinoa Bowls", "Millet-based Snacks", "Fresh Vegetable Curries"]
+      title: "Signature Biryani Packs",
+      description: "Authentic group-buy biryani made with fragrant basmati rice, farm-fresh vegetables, and premium meats. Cooked with traditional dum methods for rich flavor.",
+      features: ["Hyderabadi Chicken Biryani", "Veg Dum Biryani", "Mutton Biryani", "Paneer Tikka Biryani"]
     },
     {
       icon: Truck,
-      title: "Bulk Delivery System",
-      description: "We deliver fresh meal packs to your location in bulk quantities, perfectly packaged for retail.",
-      features: ["Daily Fresh Delivery", "Hygienic Packaging", "Temperature Controlled", "Inventory Management"]
+      title: "Community Group Orders",
+      description: "We deliver fresh biryani packs to your community in bulk, ensuring affordability and convenience for everyone.",
+      features: ["Same-day Delivery", "Hygienic Packaging", "Freshly Cooked in Central Kitchens", "Affordable Group Pricing"]
     },
     {
       icon: Users,
-      title: "Community Distribution",
-      description: "Sell directly to families in your neighborhood, building lasting relationships and steady income.",
-      features: ["Local Customer Base", "Repeat Orders", "Word-of-Mouth Growth", "Community Trust"]
+      title: "Seller Partner Program",
+      description: "Partner with us to bring World of Biryanis to your apartment, office, or neighborhood. Earn income while sharing authentic biryani experiences.",
+      features: ["Exclusive Territory Rights", "Steady Income from Orders", "Strong Word-of-Mouth Growth", "Trusted Community Brand"]
     }
   ];
 
@@ -32,7 +32,7 @@ const ProductsServices = () => {
             What You'll Be Selling
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Premium healthy meal packs that your community will love, delivered fresh to your doorstep for easy distribution.
+            Authentic biryani packs that your community will love, delivered fresh to your doorstep for easy distribution.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ const ProductsServices = () => {
           {products.map((product, index) => (
             <div 
               key={index}
-              className="group bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-3xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+              className="group bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-3xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 flex flex-col h-full"
             >
               <div className="bg-white w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform shadow-lg">
                 <product.icon className="h-10 w-10 text-emerald-600" />
@@ -55,11 +55,11 @@ const ProductsServices = () => {
                 {product.description}
               </p>
               
-              <ul className="space-y-3">
+              <ul className="space-y-3 flex-1">
                 {product.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-center text-gray-700">
-                    <CheckCircle className="h-5 w-5 text-emerald-500 mr-3 flex-shrink-0" />
-                    <span className="font-medium">{feature}</span>
+                  <li key={idx} className="flex items-start text-gray-700">
+                    <CheckCircle className="h-5 w-5 text-emerald-500 mr-3 flex-shrink-0 mt-0.5" />
+                    <span className="font-medium leading-relaxed">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -83,7 +83,7 @@ const ProductsServices = () => {
               </div>
               <h4 className="font-bold text-lg mb-3">We Prepare</h4>
               <p className="text-emerald-100 text-sm leading-relaxed">
-                Fresh, healthy meals prepared daily in our certified kitchen using premium ingredients
+                Fresh, authentic biryani prepared daily in our certified kitchen using premium ingredients and traditional methods
               </p>
             </div>
             
@@ -93,7 +93,7 @@ const ProductsServices = () => {
               </div>
               <h4 className="font-bold text-lg mb-3">We Deliver</h4>
               <p className="text-emerald-100 text-sm leading-relaxed">
-                Bulk quantities delivered to your location, ready for immediate sale to customers
+                Fresh biryani packs delivered to your location, ready for immediate sale to customers
               </p>
             </div>
             
@@ -103,7 +103,7 @@ const ProductsServices = () => {
               </div>
               <h4 className="font-bold text-lg mb-3">You Sell</h4>
               <p className="text-emerald-100 text-sm leading-relaxed">
-                Distribute to families in your community, building relationships and steady income
+                Distribute authentic biryani to families in your community, building relationships and steady income
               </p>
             </div>
             

@@ -16,7 +16,7 @@ const HeroSection = () => {
             </div>
             <div className="ml-6">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-emerald-700 to-green-700 bg-clip-text text-transparent">
-                NutriVital
+                World of Biryanis
               </h1>
               <p className="text-lg text-gray-600 font-medium">Nourishing Communities, Empowering Lives</p>
             </div>
