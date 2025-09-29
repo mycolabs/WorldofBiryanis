@@ -3,9 +3,9 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ApplicationForm from './pages/ApplicationForm';
-import RefundPolicy from './pages/RefundPolicy';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsConditions from './pages/TermsConditions';
+import RefundPolicy from './pages/refund-policy';
+import PrivacyPolicy from './pages/privacy-policy';
+import Terms from './pages/terms';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Route path="/apply" element={<ApplicationForm />} />
       <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-      <Route path="/terms" element={<TermsConditions />} />
+      <Route path="/terms" element={<Terms />} />
     </Routes>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const TermsConditions: React.FC = () => {
+const Terms: React.FC = () => {
   return (
     <div className="bg-slate-50 min-h-screen">
       <Header />
@@ -31,4 +31,4 @@ const TermsConditions: React.FC = () => {
   );
 };
 
-export default TermsConditions;
+export default Terms;

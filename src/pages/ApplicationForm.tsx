@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { CheckCircle, AlertCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { CheckCircle, AlertCircle, ArrowLeft } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
