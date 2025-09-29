@@ -121,9 +121,9 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-lg mb-2">Our Office</h4>
-                  <p className="text-gray-700 mb-1">World of Biryanis Foods Pvt. Ltd.</p>
-                  <p className="text-gray-600">Koramangala, Bengaluru</p>
-                  <p className="text-gray-600">Karnataka 560034, India</p>
+                  <p className="text-gray-700 mb-1">World of Biryanis Foods</p>
+                  <p className="text-gray-600">Bengaluru</p>
+                  <p className="text-gray-600">Karnataka 560068, India</p>
                 </div>
               </div>
             </div>
