@@ -13,12 +13,13 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-emerald-600 to-green-600 p-3 rounded-xl shadow-lg mr-4">
                 <Heart className="h-6 w-6 text-white" />
               </div>
-              <div>
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-green-400 bg-clip-text text-transparent">
-                  World of Biryanis
-                </h3>
-                <p className="text-sm text-gray-400">Nourishing Communities, Empowering Lives</p>
-              </div>
+            <div>
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-green-400 bg-clip-text text-transparent">
+                World of Biryanis
+              </h3>
+              <p className="text-sm text-gray-400">Nourishing Communities, Empowering Lives</p>
+              <p className="text-gray-400 text-xs mt-1">Operated by J Dilip Kumar (Udyam Registered Individual Proprietor)</p>
+            </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
               Making families healthier through heritage grains and empowering local entrepreneurs to build profitable businesses.
@@ -94,7 +95,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 World of Biryanis Foods Pvt. Ltd. All rights reserved.
+              © 2024 World of Biryanis — Operated by J Dilip Kumar (Udyam Registered Individual Proprietor). All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link 
