@@ -6,6 +6,7 @@ import ApplicationForm from './pages/ApplicationForm';
 import RefundPolicy from './pages/refund-policy';
 import PrivacyPolicy from './pages/privacy-policy';
 import Terms from './pages/terms';
+import ShippingAndDelivery from './pages/ShippingAndDelivery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<Terms />} />
+      <Route path="/shipping-and-delivery" element={<ShippingAndDelivery />} />
     </Routes>
   );
 }

@@ -116,6 +116,12 @@ const Footer = () => {
               >
                 Terms & Conditions
               </Link>
+              <Link 
+                to="/shipping-and-delivery" 
+                className="text-gray-400 hover:text-emerald-400 text-sm transition-colors"
+              >
+                Shipping & Delivery
+              </Link>
             </div>
           </div>
         </div>
